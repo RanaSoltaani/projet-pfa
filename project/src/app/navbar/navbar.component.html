@@ -1,0 +1,33 @@
+<header class="w3-display-container w3-wide" id="home">
+  <nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+<a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+<i class="fa fa-remove"></i>
+</a>
+<div class="w3-bar-block w3-center">
+<a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
+<a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
+<a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Shop</a>
+<a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+</div>
+</nav>
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+          <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+            <i class="fa fa-bars"></i>
+          </a>
+          <a routerLink=""class="w3-bar-item w3-button">Accueil</a>
+          <a routerLink="" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> A propos</a>
+          <a href="/login" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Login</a>
+          <a href="/sign" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Sign Up</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Contact</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          
+          
+          <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+            <i class="fa fa-search"></i>
+            
+          </a>
+          <a routerLink=""class="w3-bar-item w3-button">Espace Stagiaire</a>
+          <a routerLink=""class="w3-bar-item w3-button">Espace Admin</a>
+        </div>
+              <router-outlet></router-outlet>

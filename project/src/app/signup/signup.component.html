@@ -1,0 +1,94 @@
+<div class="signup-form">
+    <form action="/examples/actions/confirmation.php" method="post">
+		<h2>S'inscrire</h2>
+		
+		<hr>
+        <div class="form-group">
+			<div class="input-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text">
+						<span class="fa fa-user"></span>
+					</span>                    
+				</div>
+				<input type="text" class="form-control" name="username" placeholder="Nom d'utilisateur" required="required">
+			</div>
+        </div>
+        <div class="form-group">
+			<div class="input-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text">
+						<i class="fa fa-paper-plane"></i>
+					</span>                    
+				</div>
+				<input type="email" class="form-control" name="email" placeholder="Email" required="required">
+			</div>
+        </div>
+		<div class="form-group">
+			<div class="input-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text">
+						<i class="fa fa-lock"></i>
+					</span>                    
+				</div>
+				<input type="text" class="form-control" name="password" placeholder="Mot de passe" required="required">
+			</div>
+            
+        </div>
+		<div class="form-group">
+			<div class="input-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text">
+						<i class="fa fa-lock"></i>
+						<i class="fa fa-check"></i>
+					</span>                    
+				</div>
+				<input type="text" class="form-control" name="confirm_password" placeholder="Confirmer mot de passe" required="required">
+			</div>
+            <div>
+                <h2>Demande de stage</h2>
+                <br>
+            <label for="type">Type de stage:</label>
+        
+            <select name="pets" id="type">
+               <option value=""> type de stage</option>
+               <option value="dog">Stage obligatoire</option>
+               <option value="cat">Stage d'initiation</option>
+               <option value="hamster">Stage optionnel</option>
+    
+            </select>
+        </div>
+    
+        <div>
+            <br>
+            <label for="pet-select">Domaine stage:</label>
+
+            <select name="pets" id="type">
+              <option value="">domaine de stage</option>
+              <option value="dog">informatique  </option>
+              <option value="cat">technique</option>
+              <option value="hamster">commerce</option>
+              <option value="hamster">affaires administratives </option>
+              <option value="hamster">finance et comptabilité</option>
+              <option value="hamster">Secrétariat</option>
+
+            </select>
+        </div>    
+            <br>
+            <label for="start">début de stage:</label>
+
+           <input type="date" id="type" name="trip-start" value="2021-07-22" min="2021-01-01" max="2021-12-31" required>       
+           <br>    <br>
+            <label for="start">fin de stage:</label>
+
+           <input type="date" id="type" name="trip-start" value="2021-07-22" min="2021-01-01" max="2021-12-31" required>       
+            
+        </div>
+        
+		<div class="form-group">
+            <button type="submit" class="btn btn-primary btn-lg">Sign Up</button>
+        </div>
+    </form>
+	<div class="text-center">Already have an account? <a href="#">Login here</a></div>
+</div>
+
+<h3 id="a1">Demande de stage</h3>
